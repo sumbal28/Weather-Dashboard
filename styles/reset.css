@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    
+    
+    
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+}
+
+input {
+        
+        
+        max-height: 30px;
+        background-color: rgba(203, 201, 201, 0.3);
+        border-bottom: 3px solid rgb(196, 187, 183);
+        color: rgb(11, 9, 9);
+        font-size: 20px;
+        font-weight: 300;
+        transition:0.2s ease-out;
+        border: none;
+        outline: 1px solid rgb(15, 9, 9);
+        border-radius: 4px 4px 4px 4px;
+        margin-top: 50px;
+        
+}
+input:focus {
+            background-color: rgba(230, 213, 214, 0.6);
+            
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+ main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+     
+    
+} 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    text-align: center;
+  }
+.search-b {
+        max-height: 30px;
+        background-color: rgba(255,255,255, 0.3);
+        border-bottom: 3px solid rgb(43, 25, 179);
+        color: rgb(231, 230, 236);
+        background-color: blue;
+        font-size: 20px;
+
+        
+        transition:0.2s ease-out;
+        border: none;
+        outline: 1px solid rgb(15, 9, 9);
+        border-radius: 4px 4px 4px 4px;
+        margin-top: 80px;
+
+
+}
+.location .city {
+    
+    font-size: 22px;
+    color: blue;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.location .date {
+    
+    font-size: 16px;
+    color: aquamarine;
+}
+
+  .temp {
+    color: rgb(71, 71, 115);
+    font-size: 30px;
+    font-weight: 100;
+    margin: 10px 0px;
+    text-shadow: 2px 1px rgba(0,0,0,0.2);
+}
+ .temp span {
+  font-weight: 100;
+}
+ .weather {
+    color: rgb(221, 221, 73);
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+ .hi-low {
+    color: rgb(196, 85, 85);
+    font-size: 24px;
+    font-weight: 500;
+}
+    
+    
+
+@media screen and (min-width: 550px) {
+    .cities {
+        grid-template-columns: repeat(auto-fit,minmax(12rem, 1fr));
+    }
+}
+@media screen and(min-width: 768px){
+    .container{
+        padding: 4rem;
+    }
+}
+    
