@@ -15,8 +15,6 @@ var searchHistoryList = function(cityName) {
     var searchEntryContainer = $("<div>");
     searchEntryContainer.addClass("past-search-container");
 
-    // append entry to container
-    searchEntryContainer.append(searchHistoryEntry);
 
     // append entry container to search history container
     var searchHistoryContainerEl = $("#search-history-container");
