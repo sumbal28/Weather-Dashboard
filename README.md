@@ -106,6 +106,9 @@ This Challenge is graded based on the following criteria:
 You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
+* https://bespoke-salamander-159598.netlify.app/
+* https://sumbal28.github.io/Weather-Dashboard/
+* 
 
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
